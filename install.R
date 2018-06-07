@@ -3,12 +3,13 @@ install.packages(c(
   'functional', 'plyr', 'reshape2', 'caTools',
   'rJava', 'DBI', 'R.methodsS3',
   'Hmisc', 'memoise', 'rjson', 'sparklyr', 'shiny','rmarkdown',
-  'leaflet','geojsonio','sf'
+  'leaflet','geojsonio','sf', 'zip'
 ), repos="http://cran.rstudio.com")
 
 install.packages(c(
   'awspack',
   'bigQueryR',
+  'googleAuthR',
   'googleCloudStorageR',
   'rdatastore',
   'googleComputeEngineR',

@@ -7,6 +7,7 @@ RUN apt-get update -y && apt-get install -y \
   libcairo2 libcairo2-dev \
   libudunits2-0 libudunits2-dev \
   jq \
+  procps \
   zlib1g-dev libbz2-dev \
   libgeos-dev libgeos-3.5.1 \
   proj-bin \
